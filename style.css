@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+/* MAIN PICTURE SETTING
+img.pic
+{
+	width: 250;
+	height: 250;
+	float: right;
+}*/
+
+/* LIST LOCATION PROPERTIES */
+.Greeting
+{
+	float: right;
+	list-style: circle ;
+	margin-top: 30px;
+}
+
+/*MAKE LIST HORIZONTAL LAYOUT*/
+.Greeting li
+{
+	display: inline-block;
+}
+
+/* FONT AND STYLE OF LIST */
+.Greeting li a
+{
+	color: darkgoldenrod;
+	text-decoration: none ;
+	padding: 5px 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+/*BORDER AROUND CURRENT PAGE FROM LIST*/
+.Greeting li.active a
+{
+	border: 1px solid darkgoldenrod;
+}
+
+/*EFFECT OVER LIST LINK HOVERING*/
+.Greeting li a:hover
+{
+		border: 1px solid darkgoldenrod;
+}
+
+/*EFFECT OVER LIST LINK POST VISITED*/
+.Greeting li a:visited 
+{
+		border: 1px solid #563D00;
+}
+/*BACKGROUND image PROPERTIES*/
+html { 
+  background: url(nature.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Centre image
+.centre
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(nature.jpg);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+*/
+/* ADJUST WIDTH OF THE LIST ROW*/
+.row
+{
+	max-width: 1600;
+	margin: auto;
+}
+
+/* Title message settings */
+.title 
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: azure;
+}
+
+.title h1
+{
+	color: azure;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 250;
+}
+.title h2
+{
+	color: brown;
+	text-transform: none;
+	font-size: 35px;
+	text-align: left;
+	margin-top: none;
+	margin-left: 90px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.title h3
+{
+	color: brown;
+	text-transform: none;
+	font-size: 35px;
+	text-align: left;
+	margin-top: none;
+	margin-left: 0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+/*
+.stockG h1
+{
+	color: brown;
+	text-transform: none;
+	font-size: 35px;
+	text-align: left;
+	margin-top: none;
+	margin-left: 90px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}*/
+
+.buttons
+{
+	margin-top: 30px;
+	margin-left: 150px;
+	
+}
+
+.btn1{
+	border:1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn2{
+	border:1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+/* project page graph location 
+#stocks {
+	
+  position: relative;
+}
+
+#stocks img{
+	position: relative;
+	top: -1000px;
+	right: -1150px;
+	
+}*/
+/* Stocks Graph location*/
+.stockG {
+    vertical-align: top;
+    
+    width: 120px;
+	position: relative;
+	top: -1000px;
+	right: -1150px;
+}
+
+.stockG img {
+    width: 700px;
+    height: 500px;
+   
+}
+/* Stocks Graph heading location*/
+.stockG .caption {
+position: absolute;
+    width: 500px;
+    height: ;
+    bottom: -50px;
+    left: 100px;
+    color:chocolate;
+		text-align:center;
+		font-weight:bold;
+		font-size: 35px
+}
+
+.contact table {
+	width: 500px;   
+	color: beige;
+}
+.contact td, th {color: aqua; border-color: azure; border:solid; } 
+	
+
