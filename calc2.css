@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+}
+.bFrame {
+	width: 600px;
+	
+}
+.frame {
+  border: 1px solid #ccc;
+  position: absolute;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:600px;
+}
+
+.frame input[type=button] {
+
+background-color: #4CAF50;
+border-radius: 20px;
+color: crimson;
+background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+width: 145px;
+height: 50px;
+font-size: 50px;
+text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+input[type=button]:hover{
+background-color: azure;
+}
+
+input[type=text] {
+background-color: #11E022;
+width: 600px;
+height: 50px;	
+font-size: 60px;
+}
+@media screen and (max-width : 599px){ 
+	#disp{
+		width: 100%;	
+		max-width: fill-available;
+	}
+	.frame input[type=button]{
+		width:105%;
+		max-width: fill-available;
+	}
+}
+/*
+.clear {
+background-color: #4CAF50;
+width: 100%;
+height: 50px;
+font-size: 50px;
+grid-area: 1/3/1/4;
+}
+
+.clear:hover{
+	background-color: azure;
+}
+*/
+
