@@ -1,0 +1,44 @@
+body {
+  width: 200vw;
+  margin: 10px auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #204E9F;
+  background-color: #47AB6B;
+}
+
+rect {
+  fill: orange;
+  fill-opacity: 1;
+}
+
+rect:hover {
+  fill: red;
+  fill-opacity: .5;
+}
+
+path {
+  fill-opacity: 0.8;
+}
+
+.selected,
+path:hover {
+  fill-opacity: 1;
+}
+
+.axis {
+  font-size: smaller;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #0097C2;
+  font-style: bold;
+}
+
+h3 {
+  text-align: center;
+}

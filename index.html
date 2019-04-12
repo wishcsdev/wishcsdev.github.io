@@ -1,54 +1,74 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Website</title>
-<link rel="stylesheet" href="style.css">
-<style>
+<!DOCTYPE html>
+<html lang="en" >
 
-</style>
-	
+<head>
+  <meta charset="UTF-8">
+  <title>yep</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
 <body>
-	<header>
-		<div class="row">
-			
-		<ul	class="Greeting">
-			<li class="active"><a href=""> HOME </a></li>
-			<li><a href="Projects.html"> PROJECTS </a></li>
-			<li><a href="cv.html"> ABOUT ME </a></li>
-			<li><a href="contact.html"> CONTACT </a></li>
-			<li><a href="calc.html"> CALC </a></li>
-			
-			   
-		</ul>
-		</div>
-		
-		<div class="title">
-				<h1 style="color:coral; font-size: 65px; align-content: center; font-family:'aguafina-script'"> Welcome to Vishaal Bakshi Webpage! </h1>
-				<div style="float: left">
-					<iframe id="youtube" width="450" height="415" style="padding:110;border:110px transparent; margin: 10px 100px;" src="https://www.youtube.com/embed/ycPr5-27vSI" frameborder="10" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<h2>Elon Musk Interview</h2>
-				</div>
-				<div style="float:right">
-					<!--<a href="https://www.youtube.com/watch?v=ycPr5-27vSI" alt="Joe Rogan hates us" class="btn1" style=""> Joe Rogan Podcast</a>
-					<a href="" class="btn2"> Unity Game </a>-->
-					<iframe id="youtube" width="450" height="415" style="padding:110;border:110px transparent;" margin: 10px 100px; src="https://www.youtube.com/embed/GXI0l3yqBrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 					<h3>Unity Real Time Rendering</h3>
-					<!--<input type="text" x-webkit-speech align="middle" size="50" style=" background-color: chocolate; margin:200px 30px   "  />-->
-				</div>
-			
-				
 
-		</div>
-		
-		<img src ="hiking.jpg" alt="hiking" width="550" style="float:right; margin-right: -400px; margin-top: 120px; border-radius: 50%" >
-		
-			
-			
+  <h1>Suicides by Population and Gender</h1>
 
-	</header>
+    <div>
+
+        <strong>Selected Gender: </strong>
+        <span id="selectedSex"></span>
+      
+        <label for="countrycl"><strong>Countries:</strong></label>
+        <select id="countrycl">
+            <option value="" selected>All Countries</option>
+            <option value="1">Canada</option>
+            <option value="2">France</option>
+            <option value="3">Germany</option>
+            <option value="4">Russian Federation</option>
+            <option value="5">Sweden</option>
+            <option value="6">United Kingdom</option>
+            <option value="7">United States of America</option>
+        </select>
+
+    </div>
+
+    <main>
+
+        <section>
+            <h3>Suicides Histogram</h3>
+            <svg id="suicides"></svg>
+        </section>
+
+        <section>
+            <h3>Gender Distribution</h3>
+            <svg id="sex"></svg>
+        </section>
+        
+        <section>
+            <h3>Population Histogram</h3>
+            <svg id="population"></svg>
+        </section>
+      
+        <section>
+            <h3>Year Histogram</h3>
+            <svg id="year"></svg>
+        </section>
+
+    </main>
 </body>
+</html>
+  <script src='https://unpkg.com/d3@5'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>
