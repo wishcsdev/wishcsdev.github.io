@@ -1,0 +1,12 @@
+https://github.com/wishcsdev/wishcsdev.github.io
+
+Checked on Chrome and Edge. 
+
+On the Upper Right please click on Calc to open calculator
+
+There is a bug which doesnt automatically scale the mobile version. However if you manually change the window 
+size to less than 600px the calculator scales. I am not sure why this is the case. 
+
+I have added a function where consecutive decimal points or ++ or ** are disabled. But this also means that 
+you cannot reuse the operators until next time. 
+
